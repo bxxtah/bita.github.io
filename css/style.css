@@ -1,0 +1,423 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@font-face {
+	font-family: 'vonique_64regular';
+	src: url('../fonts/vonique64-webfont.woff2') format('woff2'),
+		url('../fonts/vonique64-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'vonique_64bold';
+	src: url('../fonts/vonique64-bold-webfont.woff2') format('woff2'),
+		url('../fonts/vonique64-bold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'vonique_64bold_italic';
+	src: url('../fonts/vonique64-bolditalic-webfont.woff2') format('woff2'),
+		url('../fonts/vonique64-bolditalic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'vonique_64italic';
+	src: url('../fonts/vonique64-italic-webfont.woff2') format('woff2'),
+		url('../fonts/vonique64-italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+header {
+	width: 100%;
+	height: 300px;
+	/* background-color: black; */
+	background-image: url(../img/6.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+body {
+	background-color: black;
+}
+
+.call {
+	float: right;
+	color: white;
+	box-sizing: border-box;
+	margin-right: 5%;
+	line-break: 2px;
+}
+
+nav {
+	background-color: black;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 20%;
+	min-width: 125px;
+	margin-right: 15px;
+	height: 300px;
+	overflow: auto;
+	text-decoration: none;
+}
+
+nav a {
+	display: block;
+	line-height: 45px;
+	height: 45px;
+	color: white;
+	text-decoration: none;
+	padding-left: 50px;
+	margin: 10px 0 10px 5px;
+	transition: all ease-in-out 0.2s;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: black;
+	text-shadow: 0.5px 0.5px 3px black;
+}
+
+img {
+	width: 250px;
+	height: 200px;
+	position: absolute;
+	left: 35%;
+	top: 15%;
+}
+
+/* main starts here (hovers animations and stuff) */
+.samples {
+	text-align: center;
+	height: 500px;
+	margin-top: 5%;
+	border-left: 9px solid black;
+	border-top: 3px solid black;
+	width: 100%;
+	background-attachment: scroll;
+	background-position: center;
+	background-size: cover;
+}
+
+.ttl {
+	position: absolute;
+	top: 20%;
+	width: 99.5%;
+	right: 0.1%;
+	background-color: white;
+	padding-top: 5px;
+	box-sizing: border-box;
+	font-family: 'vonique_64regular';
+	font-size: 20px;
+}
+
+.inner-cap {
+	position: relative;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+.caption {
+	
+	position: absolute;
+	bottom: 0.1px;
+	left: 0;
+	color: #e3e3e3;
+	height: 0;
+	width: 200px;
+	width: 100%;
+	overflow: hidden;
+	transition: all 300ms ease-in-out;
+}
+
+.capp {
+	padding-top: 300px;
+	padding-left: 1%;
+	padding-right: 1%;
+	overflow: hidden;
+	text-align: center;
+}
+
+.samples:hover>.caption {
+	height: 480px;
+}
+
+.btn {
+	text-transform: uppercase;
+	padding: 10px 16px;
+	line-height: 1.33;
+	border-radius: 6px;
+	display: inline-block;
+	font-weight: normal;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid transparent;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: darkgrey;
+}
+
+.ceiling {
+	padding: 0;
+	width: 99.9%;
+	height: 20px;
+	background-color: white;
+	position: absolute;
+	right: 0;
+}
+/* First Section 5 divs and styles end Here */
+.dividers{
+	
+	height: 5px;
+	background-color: red;
+	margin: 0;
+	padding: 0;
+}
+/* thin line divider ends here */
+.brck{
+	margin-top: 20%;
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.bracket{
+	height: 350px;
+	width: 0.2%;
+	background-color: whitesmoke;
+}
+.tp{
+	width: 3%;
+	height: 2px;
+	background-color: whitesmoke;
+	
+}
+.brckbtn{
+	margin-top: 2%;
+	float: right;
+}
+.brcktImg{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	top: -16%;
+	left: 4%;
+	border: 2px solid black;
+}
+.brcktImg1{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	top: 35%;
+	left: 4%;
+	border: 2px solid black;
+}
+.article1{
+	position: absolute;
+	left: 25%;
+	top: -20%;
+}
+.article1 h1{
+	font-family: 'vonique_64regular';
+	color: rgb(219, 230, 75);
+}
+.article1 p{
+	color: white;
+}
+.article2 h1 {
+	font-family: 'vonique_64regular';
+	color: rgb(219, 230, 75);
+}
+
+.article2 p {
+	color: white;
+}
+.article2 {
+	position: absolute;
+	top: 30.5%;
+	left: -16.5%;
+}
+/* main ends here */
+.footer-distributed {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+	color: #ffffff;
+	font-size:  30px;
+	margin: 0;
+}
+
+.footer-distributed h3 span {
+	color: yellowgreen;
+	font-family: 'vonique_64bold';
+	font-size: 30px;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+	color: #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a {
+	display: inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+	color: #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+	width: 35%;
+}
+
+.footer-distributed .footer-center i {
+	background-color: #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+	color: yellowgreen;
+	text-decoration: none;
+	;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+	line-height: 20px;
+	color: #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+	display: block;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed {
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right {
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i {
+		margin-left: 0;
+	}
+
+}
